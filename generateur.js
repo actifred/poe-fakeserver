@@ -7,6 +7,7 @@ module.exports = function() {
                 id: n,
                 firstname: faker.name.firstName(),
                 lastname: faker.name.lastName(),
+                email: faker.internet.email(),
                 avatar: faker.internet.avatar()
             }
         })

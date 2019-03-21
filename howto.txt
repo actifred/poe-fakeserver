@@ -1,0 +1,33 @@
+mkdir jsonRest
+cd jsonRest
+npm init
+npm install json-server
+code .
+=> créer un db.json en suivant l'exemple du site :
+
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Harry",
+      "lastname": "Potter",
+      "avatar": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/42/42598762b1eab61d68e502dbba2a7dbe2f98b766_full.jpg"
+    }
+  ]
+  "site": {
+    "name": "Le serveur",
+    "version": "1.0"
+  }
+}
+
+   https://github.com/typicode/json-server#getting-started
+=> package.json => "start": "json-server db.json"
+=> manipuler le serveur avec Postman
+    {
+      "firstname": "Hermione",
+      "lastname": "Granger",
+      "avatar": "http://static.hogwartsishere.com/media/profile_photos/804281_1313267086506_full.jpg"
+    }
+=> s pour sauver
+
+npm install lodash faker

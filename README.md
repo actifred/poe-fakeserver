@@ -11,9 +11,9 @@ et le serveur se lance via le script start invoqué par la commande :
 
 `npm start`
 
-Le serveur sera alors lancé sur `http://localhost:3000/` et peut être interrogé via votre navigateur web (par exemple sur `http://localhost:3000/users`) ou via un outil REST tel que [Postman].
+Le serveur sera alors lancé sur `http://localhost:3000/` et peut être interrogé via votre navigateur web (par exemple sur `http://localhost:3000/users`) ou via un outil REST tel que [Postman](https://www.postman.com).
 
-## Génération de nouvelles données via [faker] (optionnel)
+## Génération de nouvelles données via [faker](https://github.com/marak/Faker.js/) (optionnel)
 
 `npm run generate`
 
